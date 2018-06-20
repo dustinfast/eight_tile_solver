@@ -9,9 +9,3 @@ Takes an 8-tile puzzle and determines if it is solvable. If so, finds a path to 
 
 ## Usage
 Compile with `g++ eight_tile.cpp -o eight_tile.exe`, run with `./eight_tile.exe`, then follow prompts.
-
-## Files
-eight_tile.cpp - Menu / user interface.
-board.h - A library containing functions for maintaining the board representation.
-search_algs.h - A library containing the search algorithms.
-node.h - A node object with State, Action, Parent, and Path-Cost properites.
